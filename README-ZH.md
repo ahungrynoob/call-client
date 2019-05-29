@@ -3,6 +3,12 @@
 ## 描述：
     帮助你去唤起你的APP
 
+## 安装
+```shell
+$ npm install @dxd_sjtu/call-client --save
+$ yarn add @dxd_sjtu/call-client
+```
+
 ## 初始化参数：
 - deepLink          //URLSchema;
 - intentLink        //安卓系统的intent链接;

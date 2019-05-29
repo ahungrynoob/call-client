@@ -5,6 +5,12 @@
 ## What is it：
     This is a lib to call a app in h5 env.
 
+## Install
+```shell
+$ npm install @dxd_sjtu/call-client --save
+$ yarn add @dxd_sjtu/call-client
+```
+
 ## Init Args：
 - deepLink          //URLSchema;
 - intentLink        //intent link for android;
