@@ -1,5 +1,5 @@
 {
-  "name": "call-client",
+  "name": "@dxd_sjtu/call-client",
   "version": "0.1.0",
   "description": "A lib to help to call a app",
   "main": "lib/index.js",
