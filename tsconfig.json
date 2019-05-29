@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "strict": true,
+      "outDir": "lib",
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "rootDirs": ["./src", "./typings"],
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "allowJs": false,
+      "noImplicitThis": false,
+      "experimentalDecorators": true
+    },
+    "include": ["./src", "./typings/"],
+    "exclude": [
+      "node_modules",
+      "lib"
+    ]
+  }
