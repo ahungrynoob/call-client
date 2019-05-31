@@ -1,5 +1,13 @@
 # @dxd_sjtu/call-client
 
+[![NPM version][npm-image]][npm-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/@dxd_sjtu/call-client.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/@dxd_sjtu/call-client
+[download-image]: https://img.shields.io/npm/dm/@dxd_sjtu/call-client.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@dxd_sjtu/call-client
+
 ## 描述：
     帮助你去唤起你的APP
 
