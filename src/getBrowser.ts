@@ -40,22 +40,19 @@ function getBrowser(){
             isUC:true,
             version:UCMatched[1]
         };
-    }
-    if(QQMatched){
+    }else if(QQMatched){
         browser = {
             name:'QQ',
             isQQ:true,
             version: QQMatched[1]
         }
-    }
-    if(FFMatched){
+    }else if(FFMatched){
         browser = {
             name:'Firefox',
             isQQ:true,
             version: FFMatched[1]
         }
-    }
-    if(IEMatched || IEMobileMatched){
+    }else if(IEMatched || IEMobileMatched){
         const version = IEMatched && IEMatched[1] || IEMobileMatched && IEMobileMatched[1] || "0.0.0";
         if(ua.match(/IEMobile/)){
             browser = {
@@ -76,8 +73,7 @@ function getBrowser(){
                 version
             }
         }
-    }
-    if(ChromeMatched){
+    }else if(ChromeMatched){
         browser = {
             name: 'Chrome',
             isChrome: true,
@@ -97,15 +93,13 @@ function getBrowser(){
             browser.name = 'Chrome Webview';
             browser.isWebview = true;
         }
-    }
-    if(!!ua.match(/Safari/) && AndroidMatched){
+    }else if(!!ua.match(/Safari/) && AndroidMatched){
         browser = {
             name: 'Android',
             isAndroid: true,
             version: AndroidMatched[1],
           };
-    }
-    if(ua.match(/iPhone|iPad|iPod/)){
+    }else if(ua.match(/iPhone|iPad|iPod/)){
         if(ua.match(/Safari/) && SafariMatched){
             browser = {
                 name: 'Safari',

@@ -27,8 +27,7 @@ export default function(){
             isWindowsPhone: true,
             version: WindowsPhoneMatched[1],
         };
-    }
-    if(!!ua.match(/Safari/) && AndroidMatched){
+    }else if(!!ua.match(/Safari/) && AndroidMatched){
         os.version = AndroidMatched[1];
         if(!!ua.match(/Mobile\s+Safari/)){
             os.name = 'Android';
@@ -37,8 +36,7 @@ export default function(){
             os.name = 'AndroidPad';
             os.isAndroidPad = true;
         }
-    }
-    if(iOSDeviceMatched){
+    }else if(iOSDeviceMatched){
         const name = iOSDeviceMatched[1];
         if(iOSMatched){
             os = {
