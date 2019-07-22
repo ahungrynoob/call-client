@@ -1,5 +1,15 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/ahungrynoob/call-client/compare/v0.1.3...v0.1.4) (2019-07-22)
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/ahungrynoob/call-client/compare/v0.1.2...v0.1.3) (2019-07-22)
+
+
+### Bug Fixes
+
+* add resetDownloadTimer ([b9bef5a](https://github.com/ahungrynoob/call-client/commit/b9bef5a))
 
 
 
